@@ -32,7 +32,7 @@ class SocialiteController extends Controller
         if($doctor_role){
             $doctor->assignRole($doctor_role);
         }
-        $doctor->addMediaFromUrl($socialiteUser->getAvatar())->toMediaCollection('doctor_profile_image');
+       // $doctor->addMediaFromUrl($socialiteUser->getAvatar())->toMediaCollection('doctor_profile_image');
         Auth::login($doctor);
         return $this->SocialiteResponse(
             'google',
