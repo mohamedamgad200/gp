@@ -32,9 +32,9 @@ return [
     ],
 
     'google' => [
-        'client_id' => '809802782669-1vilrbbd1bjap4up96ntqgvl943i3ktl.apps.googleusercontent.com',
-        'client_secret' => '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',
-        'redirect' => 'http://127.0.0.1:8000/api/auth/google/callback',
+        'client_id' => '745897157893-g661qslgtkf0f3qdren9dpdt3pe19ide.apps.googleusercontent.com',
+        'client_secret' => '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',
+        'redirect' => 'https://gp-production-ead6.up.railway.app/api/auth/google/callback',
         // 'redirect' => 'https://gp-pk4hct7q2-a1-h.vercel.app/api/api/auth/google/callback',
     ],
 
