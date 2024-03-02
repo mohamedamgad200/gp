@@ -11,7 +11,7 @@ class PredictionController extends Controller
     public function predict(PredictionRequest $request)
     {
         $data = $request->validated();
-        $response = Http::post('http://127.0.0.1:5000/api/submit', $data);
+        $response = Http::post('https://e979-197-37-207-143.ngrok-free.app/api/submit', $data);
         if ($response->successful()) {
             $responseData = json_decode($response->body(), true);
             $result = $responseData['result'] ?? null;
