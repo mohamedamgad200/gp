@@ -1,0 +1,6 @@
+{
+    "Authentication": true,
+    "Post": true,
+    "Statistics": true,
+    "Prediction": true
+}
